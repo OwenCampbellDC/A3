@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Queen</title>
+</head>
+<body>
+    
+<h1>Burger Queen</h1>
+
+<img src="../root/images/burgershop.jpg" alt="">
+
+<div class="input-group">
+    <span class="input-group-text">Please enter your First and Last name</span>
+    <input type="text" aria-label="First name" class="form-control">
+    <input type="text" aria-label="Last name" class="form-control">
+  </div>
+
+  <select>
+    <option value="  " selected>(please Select item)</option>
+    <option value="#">Burger and Fries</option>
+    <option value="#">Cheese Burger and Fries</option>
+    <option value="#">Fries</option>
+    <option value="#">Fountain Drink</option>
+    <option value="#">Hotdog</option>
+    <option value="#">Hotdog and Soda</option>
+
+</select>
+
+<h1>Google directions</h1>
+
+<form action="http://maps.google.com/maps" method="get" target="_blank">
+    <label for="saddr">Enter your location</label>
+    <input type="text" name="saddr" />
+    <input type="hidden" name="daddr" value="2000 Simcoe St N, Oshawa, ON L1G 0C5)" />
+    <input type="submit" value="Get directions" />
+ </form>
+
+<input class="btn btn-primary" type="submit" value="Submit">
+
+    
+</body>
+</html>
